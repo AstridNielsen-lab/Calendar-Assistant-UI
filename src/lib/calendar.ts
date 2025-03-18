@@ -111,4 +111,4 @@ export const createEvent = async (summary: string, description: string, startDat
     console.error('Erro ao criar evento no calendário:', err);
     throw err;
   }
-};
+
