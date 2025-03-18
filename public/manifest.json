@@ -1,0 +1,16 @@
+{
+  "name": "AI Calendar Assistant",
+  "short_name": "Calendar AI",
+  "description": "Assistente de calendário inteligente desenvolvido com IA Gemini",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
+  ]
+}
