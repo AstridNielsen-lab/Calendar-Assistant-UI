@@ -69,7 +69,7 @@ function App() {
             <div className="flex items-center space-x-2">
               <span className="text-sm text-gray-500">Powered by</span>
               <img 
-                src="https://www.gstatic.com/lamda/images/gemini_wordmark_dark.svg" 
+                src="https://raw.githubusercontent.com/AstridNielsen-lab/Calendar-Assistant-UI/refs/heads/index/src/1728457808_Google_Gemini_logo_PNG.png" 
                 alt="Gemini"
                 className="h-6"
               />
