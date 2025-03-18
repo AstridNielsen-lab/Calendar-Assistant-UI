@@ -1,6 +1,6 @@
 import { gapi } from 'gapi-script';
 
-const CLIENT_ID = 'your-client-id.apps.googleusercontent.com';  // Substitua pelo CLIENT_ID correto
+const CLIENT_ID = 'ai-calendar-assistant-454106';  // Substitua pelo CLIENT_ID correto
 const API_KEY = 'AIzaSyDMcVMryMOe4o2oCzSWMmIkdzvNhWngaAk';
 const DISCOVERY_DOC = 'https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest';
 const SCOPES = 'https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/calendar.events';
