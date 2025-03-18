@@ -1,7 +1,7 @@
 import { gapi } from 'gapi-script';
 
-const CLIENT_ID = 'YOUR_CLIENT_ID';
-const API_KEY = 'YOUR_API_KEY';
+const CLIENT_ID = 'ai-calendar-assistant-454106';
+const API_KEY = 'AIzaSyDMcVMryMOe4o2oCzSWMmIkdzvNhWngaAk';
 const DISCOVERY_DOC = 'https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest';
 const SCOPES = 'https://www.googleapis.com/auth/calendar.readonly https://www.googleapis.com/auth/calendar.events';
 
@@ -15,7 +15,7 @@ export const initializeGoogleCalendar = () => {
 
 async function initializeGapiClient() {
   await gapi.client.init({
-    apiKey: API_KEY,
+    apiKey: AIzaSyDMcVMryMOe4o2oCzSWMmIkdzvNhWngaAk,
     discoveryDocs: [DISCOVERY_DOC],
   });
   gapiInited = true;
